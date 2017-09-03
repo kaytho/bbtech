@@ -111,3 +111,34 @@ hr.divider {
   border: 5px solid #F4B033;
   max-width: 100%;
 }
+
+.footer{
+  height: 30px;
+}
+#boxes{
+  /*border: solid white;*/
+  display: inline-block;
+}
+.boxes h1{
+  font-size: 10px;
+}
+.boxes h2{
+  font-size: 15px;
+}
+#box{
+  border: solid white;
+  height: 400px;
+  width: 500px;
+  display: inline-grid;
+}
+
+#box h1{
+  font-size: 30px;
+}
+
+#box .inner{
+  /*border-top: solid white;*/
+  color: black;
+  height: auto;
+  font-size: 30px;
+}
