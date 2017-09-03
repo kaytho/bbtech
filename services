@@ -41,7 +41,7 @@
 <body>
 
     <div class="tagline-upper text-center text-heading text-shadow text-white mt-4 hidden-md-down">Baby Boomer Technology</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-4 hidden-md-down">B.B. Tech <br><br> Standing in the gap between Baby Boomers and Technology>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-4 hidden-md-down">B.B. Tech <br><br> Standing in the gap between Baby Boomers and Technology <br><br>
 
     <!-- Navigation -->
     <nav class="navbar navbar-toggleable-md navbar-light navbar-custom bg-faded py-lg-4">

@@ -9,10 +9,11 @@
   <title>Baby Boomer Technology</title>
 
   <!-- Bootstrap core CSS -->
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Custom fonts for this template -->
@@ -100,18 +101,18 @@
     <!-- /.container -->
 
     <footer class="bg-faded text-center py-5">
-        <div class="container">
-            <p class="m-0">Copyright &copy; Baby Boomer Technology 2017</p>
+        <div class="container>
+            <p class="m-0"><br><br> Copyright &copy; Baby Boomer Technology 2017</p>
         </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
 
     <!-- Zoom when clicked function for Google Map -->
-    <script>
+    <!-- <script>
     $('.map-container')
         .click(function() {
             $(this).find('iframe').addClass('clicked')
@@ -119,7 +120,7 @@
         .mouseleave(function() {
             $(this).find('iframe').removeClass('clicked')
         });
-    </script>
+    </script> -->
 
 </body>
 
