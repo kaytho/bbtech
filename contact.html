@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Baby Boomer Technology</title>
+    <title>Baby Boomer Technology</title>
 
-  <!-- Bootstrap core CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/styles.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
@@ -34,14 +31,22 @@
             width: 100%;
         }
     }
+    /* Temporary fix for img-fluid sizing within the carousel */
+
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+    }
     </style>
 
 </head>
 
-<body>
+
+  <body>
 
     <div class="tagline-upper text-center text-heading text-shadow text-white mt-4 hidden-md-down">Baby Boomer Technology</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-4 hidden-md-down">B.B.Tech <br><br>Standing in the gap between Baby Boomers and Technology</div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-4 hidden-md-down">B.B.TECH <br> <br> Bridging the gap between Baby Boomers and Technology</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-toggleable-md navbar-light navbar-custom bg-faded py-lg-4">
@@ -51,14 +56,14 @@
         <div class="container">
             <a class="navbar-brand text-uppercase text-expanded font-weight-bold hidden-lg-up" href="#"></a>
             <div class="collapse navbar-collapse" id="navbarExample">
-              <ul class="navbar-nav mx-auto">
-                    <li class="nav-item px-lg-4">
-                      <a class="nav-link text-uppercase text-expanded" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="services.html">Services</a>
                     </li>
-                    <li class="nav-item active px-lg-4">
+                    <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
                     </li>
                 </ul>
